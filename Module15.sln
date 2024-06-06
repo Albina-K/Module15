@@ -9,15 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Union", "Intersect\Union.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intersect2", "Intersect2\Intersect2.csproj", "{90A01426-DFCC-4EE3-95C4-EE0A5252A86B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Aggregate\Aggregate.csproj", "{D081587E-D8A4-4CA1-896A-CF8B7B9BC052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregate", "Aggregate\Aggregate.csproj", "{D081587E-D8A4-4CA1-896A-CF8B7B9BC052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count", "Count\Count.csproj", "{7DC25472-C2B7-4054-86EE-40318D1FA2DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count", "Count\Count.csproj", "{7DC25472-C2B7-4054-86EE-40318D1FA2DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{99C9F5B1-EDAD-4F31-87A0-99735D2AB403}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum", "Sum\Sum.csproj", "{99C9F5B1-EDAD-4F31-87A0-99735D2AB403}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "МaxMinAverage", "МaxMinAverage\МaxMinAverage.csproj", "{66BF3607-FAAF-4845-9CA6-E64CF6CB4D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "МaxMinAverage", "МaxMinAverage\МaxMinAverage.csproj", "{66BF3607-FAAF-4845-9CA6-E64CF6CB4D1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBy", "GroupBy\GroupBy.csproj", "{63CEDB5F-AA96-491D-B486-7FAF05D404AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupBy", "GroupBy\GroupBy.csproj", "{63CEDB5F-AA96-491D-B486-7FAF05D404AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join", "Join\Join.csproj", "{BDC25858-9FC0-4BEF-AC58-9CAF28DC35D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupJoin", "GroupJoin\GroupJoin.csproj", "{EB5FDDD2-349B-419F-9422-A2383DA3F17B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zip", "Zip\Zip.csproj", "{2E346CBE-A757-4EEE-9EE4-660966D21B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeferredExecution", "DeferredExecution\DeferredExecution.csproj", "{4A4BE88E-5A6A-40FC-954C-F5CE819E5374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmediateExecution", "ImmediateExecution\ImmediateExecution.csproj", "{4BCF057C-9729-4437-9319-82A8B3CE3E15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,26 @@ Global
 		{63CEDB5F-AA96-491D-B486-7FAF05D404AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63CEDB5F-AA96-491D-B486-7FAF05D404AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63CEDB5F-AA96-491D-B486-7FAF05D404AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC25858-9FC0-4BEF-AC58-9CAF28DC35D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC25858-9FC0-4BEF-AC58-9CAF28DC35D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC25858-9FC0-4BEF-AC58-9CAF28DC35D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC25858-9FC0-4BEF-AC58-9CAF28DC35D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5FDDD2-349B-419F-9422-A2383DA3F17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5FDDD2-349B-419F-9422-A2383DA3F17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5FDDD2-349B-419F-9422-A2383DA3F17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5FDDD2-349B-419F-9422-A2383DA3F17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E346CBE-A757-4EEE-9EE4-660966D21B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E346CBE-A757-4EEE-9EE4-660966D21B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E346CBE-A757-4EEE-9EE4-660966D21B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E346CBE-A757-4EEE-9EE4-660966D21B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4BE88E-5A6A-40FC-954C-F5CE819E5374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4BE88E-5A6A-40FC-954C-F5CE819E5374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4BE88E-5A6A-40FC-954C-F5CE819E5374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4BE88E-5A6A-40FC-954C-F5CE819E5374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCF057C-9729-4437-9319-82A8B3CE3E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCF057C-9729-4437-9319-82A8B3CE3E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCF057C-9729-4437-9319-82A8B3CE3E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCF057C-9729-4437-9319-82A8B3CE3E15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
